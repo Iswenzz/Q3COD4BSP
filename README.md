@@ -13,4 +13,6 @@ If you have the CoD4 compile tools SDK (Radiant etc..) places the files:
 All of the map textures (and default quake3 textures) must be in
 "CoD4/texture_assets/quake3" (create the quake3 folder)
 
+Windows Download: https://www.dropbox.com/s/g4c7vf5km2l9a9r/Q3-CoD4%20Map%20Converter.zip?dl=1
+
 Credits: Iswenzz, NitroFire, Phelix!
