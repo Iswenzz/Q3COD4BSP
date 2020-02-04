@@ -59,7 +59,7 @@ def make_gdt(filepath):
         content = f.read()
         material_list = re.findall(r"\)(?!.*\))(?:(?!256).)*", content)
         material_unique_list = []
-        for i in range(len(material_list)):
+        for i, _ in enumerate(material_list):
             material_list[i] = re.sub("[^\w\s-]", "", material_list[i]).strip().lower()
             if material_list[i] and material_list[i] not in material_unique_list \
             and material_list[i] not in common_tools:
