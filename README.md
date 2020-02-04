@@ -1,6 +1,8 @@
 # Q3->CoD4 Map Converter
 Converts all of the Quake3 .BSP files, to CoD4 .MAP files, which are editable in CoD4's Level editor, Radiant. Generates a .GDT file that contains all materials used in the map file. It also generates a .BAT to compile every material faster. 
 
+![](https://i.imgur.com/RkDPYn9.png)
+
 1. Place every Q3 .BSP in the "BSP" folder.
 2. Run converter.exe
 3. Collect the new .MAP, .GDT, and .BAT files in the "out" folder.
