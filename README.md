@@ -1,4 +1,10 @@
 # Q3->CoD4 Map Converter
+
+[![Build status](https://ci.appveyor.com/api/projects/status/f3et0j2sjonn3yua?svg=true)](https://ci.appveyor.com/project/Iswenzz/q3-to-cod4-map-converter)
+[![codecov](https://codecov.io/gh/Iswenzz/Q3-to-CoD4-Map-Converter/branch/master/graph/badge.svg)](https://codecov.io/gh/Iswenzz/Q3-to-CoD4-Map-Converter)
+[![CodeFactor](https://www.codefactor.io/repository/github/iswenzz/q3-to-cod4-map-converter/badge)](https://www.codefactor.io/repository/github/iswenzz/q3-to-cod4-map-converter)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Converts all of the Quake3 .BSP files, to CoD4 .MAP files, which are editable in CoD4's Level editor, Radiant. Generates a .GDT file that contains all materials used in the map file. It also generates a .BAT to compile every material faster. 
 
 ![](https://i.imgur.com/RkDPYn9.png)
