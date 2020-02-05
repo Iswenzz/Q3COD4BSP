@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import glob
-import msvcrt
 import time
 import os
 import re
@@ -60,7 +59,7 @@ def make_gdt(filepath):
         material_list = re.findall(r"\)(?!.*\))(?:(?!256).)*", content)
         material_unique_list = []
         for i, _ in enumerate(material_list):
-            material_list[i] = re.sub("[^\w\s-]", "", material_list[i]).strip().lower()
+            material_list[i] = re.sub(r"[^\w\s-]", "", material_list[i]).strip().lower()
             if material_list[i] and material_list[i] not in material_unique_list \
             and material_list[i] not in common_tools:
                 material_unique_list.append(material_list[i])
@@ -92,8 +91,7 @@ def main():
     for file in glob.glob(str(Path(os.getcwd()) / "out" / "*.map")):
         cod4_conv(file)
 
-    print("\nDone!\nPress any key to continue . . .")
-    msvcrt.getch()
+    print("\nDone!")
 
 
 if (__name__ == "__main__"):

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bc6d044f-3dca-4f90-8b5e-a022aa0afa26</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>converter/main.py</StartupFile>
+    <StartupFile>converter\__main__.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,9 +26,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="converter\" />
+    <Folder Include="converter\tests\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="converter\main.py" />
+    <Compile Include="converter\tests\test_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="converter\tests\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="converter\__main__.py" />
     <Compile Include="converter\__init__.py">
       <SubType>Code</SubType>
     </Compile>
