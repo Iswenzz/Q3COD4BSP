@@ -7,6 +7,11 @@ import re
 import subprocess
 
 def q3map2(filepath):
+    """
+    Use q3map2.exe to convert a Q3 BSP to a Q3 MAP.
+
+    filepath: Q3 BSP file path.
+    """
     subprocess.check_call([str(Path(os.getcwd()) / "bin" / "q3map2.exe"),
                           "-convert", "-format", "map", "-map", filepath, "-game", "quake3"])
     time.sleep(2)
@@ -20,6 +25,11 @@ def q3map2(filepath):
 
 
 def cod4_conv(filepath):
+    """
+    Convert a Q3 MAP to a CoD4 MAP.
+
+    filepath: Q3 MAP file path.
+    """
     print("\nConverting " + filepath)
     header = """iwmap 4
 "000_Global" flags  active
@@ -44,6 +54,10 @@ def cod4_conv(filepath):
 
 
 def make_gdt(filepath):
+    """
+    Generate a GDT containing all materials from the map with a default configuration,
+    and generate a BAT file to compile them quickly with the CoD4 Modtool.
+    """
     common_tools = [ "alpha_0", "alpha_100", "alpha_25", "alpha_50", "alpha_75", "antiportal",
                      "areaportal", "botclip", "caulk", "clip", "clusterportal", "cushion", "donotenter",
                      "full_clip", "hint", "hintlocal", "invisible", "lavacaulk", "lightgrid", "metalclip",
@@ -75,6 +89,9 @@ def make_gdt(filepath):
 
 
 def main():
+    """
+    Entry point of the program.
+    """
     print("""
 #####################################
           Q3 Bsp => Q3 Map
