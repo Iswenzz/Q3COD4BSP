@@ -13,7 +13,7 @@ This program converts `.BSP` files from Quake3 levels, and converts them to Call
 2. Run converter.exe
 3. Collect the new .MAP, .GDT, and .BAT files in the "out" folder.
 
-If you have the CoD4 compile tools SDK (Radiant etc..) places the files:
+If you have the CoD4 compile tools SDK (Radiant etc..) place the files:
 .MAP in "CoD4/map_source"
 .GDT in "CoD4/source_data"
 .BAT in "CoD4/bin"
