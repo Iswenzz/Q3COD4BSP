@@ -1,4 +1,4 @@
-# Q3->CoD4 Map Converter
+# Q3COD4BSP
 
 [![Build status](https://ci.appveyor.com/api/projects/status/f3et0j2sjonn3yua?svg=true)](https://ci.appveyor.com/project/Iswenzz/q3-to-cod4-map-converter)
 [![codecov](https://codecov.io/gh/Iswenzz/Q3-to-CoD4-Map-Converter/branch/master/graph/badge.svg)](https://codecov.io/gh/Iswenzz/Q3-to-CoD4-Map-Converter)
