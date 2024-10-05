@@ -10,26 +10,25 @@ This program converts `.BSP` files from Quake3 levels, and converts them to Call
 ![](https://i.imgur.com/RkDPYn9.png)
 
 ## Instructions
-1. Place every Q3 .BSP in the "BSP" folder.
-2. Run converter.exe
-3. Collect the new .MAP, .GDT, and .BAT files in the "out" folder.
+1. Place Q3 ``.BSP`` in the ``bsp`` folder.
+2. Run q3cod4bsp.exe.
+3. Move the generated files from the ``out`` folder to the ``CoD4 SDK``.
 
-If you have the CoD4 compile tools SDK (Radiant etc..) place the files:
+```t
 .MAP in "CoD4/map_source"
 .GDT in "CoD4/source_data"
 .BAT in "CoD4/bin"
-
-All of the map textures (and default quake3 textures) must be in
-"CoD4/texture_assets/quake3" (create the quake3 folder)
+```
+*The map textures and the default quake3 textures must be in:*
+``CoD4/texture_assets/quake3``
 
 ## Pre-Requisites
-1. [Python 3.6+](https://www.python.org/)
-2. **Optional** [Visual Studio](https://visualstudio.microsoft.com/)
+1. [Python](https://www.python.org/)
 
-### [Download](https://github.com/Iswenzz/Q3-to-CoD4-Map-Converter/releases)
+### [Download](https://github.com/Iswenzz/Q3COD4BSP/releases)
 
 ## Contributors:
 ***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code. Also feel free to post about any problems that may arise in the issues section of the repository.
 
-<!-- Phelix github? -->
+<a href="https://github.com/Scobalula"><img src="https://avatars2.githubusercontent.com/u/12156105?s=460&v=4" height=64 style="border-radius: 50%"></a>
 <a href="https://github.com/DavidMRyan"><img src="https://avatars2.githubusercontent.com/u/39206040?s=460&v=4" height=64 style="border-radius: 50%"></a>
