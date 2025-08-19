@@ -16,7 +16,7 @@ jobs:
     - name: Build
       run: |
         python -m pip install -r requirements.txt
-        pyinstaller --onefile --name q3cod4bsp src/__main__.py
+        pyinstaller --onefile --name q3cod4bsp q3cod4bsp.py
 
   lint:
     runs-on: ubuntu-latest
@@ -25,10 +25,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Tests
+    - name: Lint
       run: |
         python -m pip install -r requirements.txt
-        pylint src
+        pylint .
+        black .
 
   tests:
     runs-on: ubuntu-latest
@@ -40,4 +41,4 @@ jobs:
     - name: Tests
       run: |
         python -m pip install -r requirements.txt
-        pytest --cov src
+        pytest --cov .

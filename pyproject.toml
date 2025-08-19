@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "q3cod4bsp"
+version = "1.1"
+requires-python = ">=3.8"
+
+[project.scripts]
+q3cod4bsp = "q3cod4bsp.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
