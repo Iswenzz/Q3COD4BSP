@@ -2,7 +2,6 @@
 
 [![Checks](https://img.shields.io/github/check-runs/Iswenzz/Q3COD4BSP/master?logo=github)](https://github.com/Iswenzz/Q3COD4BSP/actions)
 [![CodeFactor](https://img.shields.io/codefactor/grade/github/Iswenzz/Q3COD4BSP?label=codefactor&logo=codefactor)](https://www.codefactor.io/repository/github/iswenzz/Q3COD4BSP)
-[![CodeCov](https://img.shields.io/codecov/c/github/Iswenzz/Q3COD4BSP?label=codecov&logo=codecov)](https://codecov.io/gh/Iswenzz/Q3COD4BSP)
 [![License](https://img.shields.io/github/license/Iswenzz/Q3COD4BSP?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/Q3COD4BSP/blob/master/LICENSE)
 
 ![](https://i.imgur.com/XOoinJ1.png)
