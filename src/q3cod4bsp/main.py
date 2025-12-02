@@ -142,9 +142,6 @@ def make_gdt(filepath: str):
 
 
 def main():
-    """
-    Entry point of the program.
-    """
     folder = Path("bsp")
     if not os.path.exists(folder):
         os.mkdir(folder)
